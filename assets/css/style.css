@@ -288,11 +288,12 @@ h6 {
   #hero h1 {
     font-size: 30px;
     line-height: 36px;
-    margin: 40px 0 10px 0;
+    margin: 20px 0px 10px 15px;
   }
 
   #hero p {
     font-size: 22px;
+    margin-left: 15px;
   }
 
   #hero h2 {
