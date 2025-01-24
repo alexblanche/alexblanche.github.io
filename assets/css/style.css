@@ -339,6 +339,15 @@ section {
   left: 0;
 }
 
+.section-title h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
 .section-title p {
   margin-bottom: 0;
 }

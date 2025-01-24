@@ -76,7 +76,7 @@
     <div class="hero-container" data-aos="fade-in">
       <h1>Alexandre Blanché</h1>
       <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
-      <p>Docteur en Informatique</p>
+      <p>Docteur en Informatique, développeur</p>
     </div>
   </section>
   <!-- End Hero -->
@@ -95,19 +95,27 @@
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/selfie.jpg" class="img-fluid" alt="">
           </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
             <!-- <h3>UI/UX Designer &amp; Web Developer.</h3> -->
             <!-- <p class="fst-italic">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
             </p> -->
-            <p>Je suis diplômé d'un doctorat en informatique à l'Université de Bordeaux, d'un Master 2 d'informatique à l'École normale supérieure de Rennes. J'ai également obtenu un L3 de mathématiques en parallèle de mes études d'informatique.</p>
-            <p>J'ai eu l'occasion d'enseigner l'informatique pendant 5 ans à l'IUT d'informatique de Bordeaux puis à l'Université de Bordeaux (voir mon <a href="teaching.html">CV d'enseignement</a>).</p>
-            <p>Je cherche un poste dans une entreprise d'informatique sur Bordeaux ou dans les environs.<br>
-              Je suis éligible au Crédit d'impôt recherche (CIR).</p>
+            <p>
+              Je suis diplômé d'un doctorat en informatique à l'Université de Bordeaux, d'un Master 2 d'informatique à l'École normale supérieure de Rennes. J'ai également obtenu un L3 de mathématiques en parallèle de mes études d'informatique.
+            </p>
+
+            <ul>
+              <li>J'ai occupé le poste de <i>physics programmer</i> à Asobo Studio, où j'ai travaillé sur le jeu <a href="https://www.flightsimulator.com/microsoft-flight-simulator-2024/">Microsoft Flight Simulator 2024</a> (voir section <a href="#FlightSim">ci-dessous</a>).</li>
+              <li>J'ai eu l'occasion d'enseigner l'informatique pendant 5 ans à l'IUT d'informatique de Bordeaux puis à l'Université de Bordeaux (voir mon <a href="teaching.html">CV d'enseignement</a>).</li>
+              <li>J'ai réalisé plusieurs projets de programmation en autonomie : un <a href="#emulator">émulateur de calculatrice graphique Casio</a> en OCaml et un <a href="#raytracer">moteur de rendu 3D path-tracer</a> en C++.</li>
+              
+            </ul>
+
+            <p>Je cherche un poste dans une entreprise d'informatique sur Bordeaux ou dans les environs.<br> </p>
             <br>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-6 content">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Date de naissance:</strong> <span>11 Octobre 1994</span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li> -->
@@ -115,9 +123,9 @@
                   <li><i class="bi bi-chevron-right"></i> <strong>Ville:</strong> <span>Bordeaux, France</span></li>
                 </ul>
               </div>
-              <div class="col-lg-6">
+              <div class="col-lg-6 content">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Âge:</strong> <span>29 ans</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Âge:</strong> <span>30 ans</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Diplôme:</strong> <span>Doctorat en Informatique</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>E-mail:</strong>
                     <span><a href="mailto:alexandreblanche11@gmail.com">alexandreblanche11@gmail.com</a></span></li>
@@ -128,7 +136,7 @@
             </div>
             
             <br>
-            <br>
+            <!-- <br> -->
             <font size="+2"><b>Compétences en informatique</b></font><br>
             <br>
             <b>Langages de programmation</b> : &#x202F
@@ -144,7 +152,35 @@
           </div>
         </div>
 
+        <br><br>
+        <div id="FlightSim" class="section-title" data-aos="fade-in">
+          <h3>Physics programmer à Asobo Studio</h3>
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-5" data-aos="fade-right">
+                <image src="assets/img/msfs/msfs2024.jpg" style="width:100%"></image>
+              </div>
+              <div class="col-md-7 content" data-aos="fade-left">
+                J'ai travaillé pendant 6 mois à <a href="https://www.asobostudio.com/fr">Asobo Studio</a>, développeur des jeux à succès <a href="https://youtu.be/qIbzwb8vzNI?feature=shared">A Plague Tale</a> (2019, 2022) et <i>Microsoft Flight Simulator</i> (2020). J'ai occupé le poste de <i>physics programmer</i>, et j'ai travaillé sur l'optimisation du code C++ du jeu <a href="https://www.flightsimulator.com/microsoft-flight-simulator-2024/">Microsoft Flight Simulator 2024</a> : optimisation de l'utilisation de mémoire, du temps de calcul et à l'optimisation algorithmique du code. <br><br>
+
+                J'ai également eu l'occasion de travailler sur diverses simulations de physique interactives en temps réel : moteur physique de solides indéformables, simulations de tissus, simulations de gaz, et particulièrement sur diverses méthodes de simulations d'eau.
+              </div>
+            </div>
+            <br>
+            <div class="wrapper">
+              <div class="videoWrapper">
+                <iframe src="https://www.youtube.com/embed/rvzlC4iCtns?si=VlGRY5eGSwRFrmJw"
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0"
+                  data-aos="fade-up">
+                </iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
       </div>
+
     </section><!-- End About Section -->
 
     <!-- ======= Resume Section ======= -->
@@ -257,6 +293,17 @@
                 <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
               </ul>
             </div> -->
+
+            <div class="resume-item">
+              <h4>Physics programmer</h4>
+              <h5>2024 - 2025</h5>
+              <em><a href="https://www.asobostudio.com/fr"><font color="#050d18">ASOBO Studio</font></a>, Bordeaux</em>
+              <ul>
+                <li>Optimisation du code C++ de <a href="https://www.flightsimulator.com/microsoft-flight-simulator-2024/">Microsoft Flight Simulator 2024</a> : optimisation mémoire, temps de calcul, optimisation algorithmique.</li>
+                <li>Simulations de physique : solides, tissus, gaz, et en particulier simulations d'eau en temps réel</li>
+              </ul>
+            </div>
+
             <div class="resume-item">
               <h4>Recherche académique</h4>
               <h5>2018 - 2023</h5>
